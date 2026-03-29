@@ -56,7 +56,10 @@ export default function Cart() {
   return (
     <div className="bg-gray-100 min-h-screen">
       {cart.length === 0 ? (
-        <p className="text-gray-500">Your cart is empty</p>
+        <div className="flex flex-col items-center justify-center h-screen">
+          <img src="https://assets.streamlinehq.com/image/private/w_800,h_800,ar_1/f_auto/v1/icons/seoul/shopping/shopping/empty-cart-9p91f0l3qq8hn5t9m6fqzl.png?_a=DATAiZAAZAA0" alt="Cart" className="h-52 w-48" />
+          <div className="text-gray-500  text-3xl font-bold">Your cart is empty</div>
+        </div>
       ) : (
         <div className="flex gap-6">
          
