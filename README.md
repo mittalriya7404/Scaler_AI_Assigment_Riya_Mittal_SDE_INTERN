@@ -52,7 +52,7 @@ The app allows users to browse products, manage cart items, and place orders.
 ---
 
 ## 📂 Project Structure
-
+```
 project-root/
 │
 ├── frontend/ # React App
@@ -62,6 +62,7 @@ project-root/
 │ └── controllers/
 │
 └── README.md
+```
 
 
 ---
