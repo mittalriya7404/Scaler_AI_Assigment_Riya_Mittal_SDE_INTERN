@@ -14,6 +14,11 @@ app.get("/", (req, res) => {
   res.send("Server running 🚀");
 });
 
+app.get("/ping", async (req, res) => {
+  await pool.query("SELECT 1");
+  res.send("DB alive");
+});
+
 
 app.use("/order", orderRoutes);
 
