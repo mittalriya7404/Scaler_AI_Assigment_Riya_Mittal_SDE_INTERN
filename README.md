@@ -3,7 +3,7 @@
 🚀 **Live Demo:**  
 https://scaler-ai-assigment-riya-mittal-sde.vercel.app/
 
-## 🌐 Live Links
+** 🌐 Live Links**
 
 - Frontend: https://scaler-ai-assigment-riya-mittal-sde.vercel.app/
 - Backend: https://scaler-ai-assigment-riya-mittal-sde.onrender.com
