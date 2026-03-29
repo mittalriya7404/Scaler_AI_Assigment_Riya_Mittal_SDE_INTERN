@@ -6,6 +6,7 @@ const pool = new Pool({
   ssl: {
     rejectUnauthorized: false,
   },
+  idleTimeoutMillis: 900000,
 });
 
 module.exports = pool;
