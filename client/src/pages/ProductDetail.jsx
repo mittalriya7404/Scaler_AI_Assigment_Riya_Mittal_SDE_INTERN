@@ -25,7 +25,7 @@ function ProductDetail() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/products/${id}`)
+      .get(`https://scaler-ai-assigment-riya-mittal-sde.onrender.com/products/${id}`)
       .then((res) => setProduct(res.data));
   }, [id]);
 
@@ -33,7 +33,7 @@ function ProductDetail() {
 
   const handleAddToCart = () => {
     axios
-      .post("http://localhost:5000/cart/add", {
+      .post("https://scaler-ai-assigment-riya-mittal-sde.onrender.com/cart/add", {
         productId: product.id,
         quantity: 1,
       })
@@ -49,7 +49,7 @@ function ProductDetail() {
 
   const handleBuyNow = () => {
     axios
-      .post("http://localhost:5000/cart/add", {
+      .post("https://scaler-ai-assigment-riya-mittal-sde.onrender.com/cart/add", {
         productId: product.id,
         quantity: 1,
       })

@@ -13,7 +13,7 @@ export default function OrderSummary() {
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/cart").then((res) => setCart(res.data));
+    axios.get("https://scaler-ai-assigment-riya-mittal-sde.onrender.com/cart").then((res) => setCart(res.data));
   }, []);
 
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
@@ -22,7 +22,7 @@ export default function OrderSummary() {
     try {
       const address = `${form.name}, ${form.phone}, ${form.house}, ${form.area}, ${form.city}, ${form.state} - ${form.pincode}`;
 
-      await axios.post("http://localhost:5000/order", {
+      await axios.post("https://scaler-ai-assigment-riya-mittal-sde.onrender.com/order", {
         address,
       });
 

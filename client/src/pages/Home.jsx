@@ -18,7 +18,7 @@ export default function Home() {
     const params = new URLSearchParams(location.search);
     const search = params.get("search");
 
-    let url = "http://localhost:5000/products";
+    let url = "https://scaler-ai-assigment-riya-mittal-sde.onrender.com/products";
 
     const query = [];
 

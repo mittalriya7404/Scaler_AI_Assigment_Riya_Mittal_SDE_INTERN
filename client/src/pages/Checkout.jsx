@@ -24,7 +24,7 @@ export default function Checkout() {
     try {
       // const address = `${form.name}, ${form.phone},${form.house}, ${form.area},${form.city}, ${form.state} - ${form.pincode}`;
 
-      // const res = await axios.post("http://localhost:5000/order", {
+      // const res = await axios.post("https://scaler-ai-assigment-riya-mittal-sde.onrender.com/order", {
       //   address,
       // });
 

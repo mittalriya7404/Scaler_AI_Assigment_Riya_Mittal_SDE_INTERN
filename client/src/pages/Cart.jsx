@@ -11,7 +11,7 @@ export default function Cart() {
   //Fetch cart items
   const fetchCart = () => {
     axios
-      .get("http://localhost:5000/cart")
+      .get("https://scaler-ai-assigment-riya-mittal-sde.onrender.com/cart")
       .then((res) => {
         // console.log(res);
         // console.log(res.data);
@@ -30,7 +30,7 @@ export default function Cart() {
     if (qty < 1) return; // prevent 0 or negative
 
     axios
-      .put(`http://localhost:5000/cart/${id}`, {
+      .put(`https://scaler-ai-assigment-riya-mittal-sde.onrender.com/cart/${id}`, {
         quantity: qty,
       })
       .then(fetchCart);
@@ -43,7 +43,7 @@ export default function Cart() {
 
   // Remove item
   const removeItem = (id) => {
-    axios.delete(`http://localhost:5000/cart/${id}`).then(fetchCart);
+    axios.delete(`https://scaler-ai-assigment-riya-mittal-sde.onrender.com/cart/${id}`).then(fetchCart);
   };
 
   const handleBuyNow = () => {

@@ -6,7 +6,7 @@ export default function Orders() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/order/getOrder")
+      .get("https://scaler-ai-assigment-riya-mittal-sde.onrender.com/order/getOrder")
       .then((res) => setOrders(res.data))
       .catch((err) => console.error(err));
   }, []);
