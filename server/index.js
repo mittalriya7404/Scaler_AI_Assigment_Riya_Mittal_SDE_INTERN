@@ -1,7 +1,7 @@
 const express = require("express");
 const cors= require("cors");
 const app = express();
-
+const pool = require("../config/db");
 
 const productRoutes = require("./routes/productRoutes"); 
 const orderRoutes = require("./routes/orderRoutes");
