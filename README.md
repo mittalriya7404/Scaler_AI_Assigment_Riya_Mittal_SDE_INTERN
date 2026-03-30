@@ -44,9 +44,9 @@ The app allows users to browse products, manage cart items, and place orders.
 ## ⚙️ Features
 
 **Product Browsing**
--Browse a wide range of products with detailed information
--Dynamic product listing fetched from backend (PostgreSQL)
--Clean and responsive UI for better user experience
+- Browse a wide range of products with detailed information
+- Dynamic product listing fetched from backend (PostgreSQL)
+- Clean and responsive UI for better user experience
 
 
 **Search & Filtering**
