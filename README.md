@@ -47,6 +47,7 @@ The app allows users to browse products, manage cart items, and place orders.
 - Browse a wide range of products with detailed information
 - Dynamic product listing fetched from backend (PostgreSQL)
 - Clean and responsive UI for better user experience
+- Modern carousel UI with swipe/scroll support for an improved browsing experience
 
 
 **Search & Filtering**
